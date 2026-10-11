@@ -1,14 +1,14 @@
+
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "rewrites": [
     {
       "source": "/api",
-      "destination": "https://REPLACE-WITH-YOUR-RAILWAY-BACKEND.up.railway.app/api"
+      "destination": "https://handsome-connection-production-02fc.up.railway.app/api"
     },
     {
       "source": "/api/:path*",
-      "destination": "https://REPLACE-WITH-YOUR-RAILWAY-BACKEND.up.railway.app/api/:path*"
+      "destination": "https://handsome-connection-production-02fc.up.railway.app/api/:path*"
     }
-  ],
-  "outputDirectory": "public"
+  ]
 }
